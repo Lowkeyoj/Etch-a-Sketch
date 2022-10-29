@@ -5,8 +5,8 @@ const btn = document.querySelector('.class');
 
 
 
-function createDivs(){
-for(i = 0;i < 15; i++){
+function createDivs(par){
+for(i = 0;i < par; i++){
 const divs = document.createElement('div');
 divs.classList.add('try');
 divs.style.backgroundColor = 'green';
@@ -21,7 +21,9 @@ div.appendChild(divs);
 
 
 btn.addEventListener('click', () => {
-    createDivs();
+    let par = prompt('How big do you want the grid');
+    par =  
+    createDivs(par);
 } )
 
 
