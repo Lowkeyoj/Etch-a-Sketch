@@ -1,0 +1,9 @@
+.class {
+   height: 25.5px;
+   width: 68.65px; 
+}
+.first {
+   height: 300px;
+   width: 300px;
+   display: grid;
+}
