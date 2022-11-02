@@ -1,9 +1,15 @@
+
+.first {
+   margin-top: 25px;
+   margin-right: 40px;
+   display: grid;
+   border: 5px solid black;
+   border-radius: 5px;
+   height: 575px;
+   width: 575px;0
+}
+
 .class {
    height: 25.5px;
    width: 68.65px; 
-}
-.first {
-   height: 300px;
-   width: 300px;
-   display: grid;
 }
