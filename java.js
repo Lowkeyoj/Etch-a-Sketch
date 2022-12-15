@@ -15,7 +15,7 @@ function createDivs(par){
   if(par > 0){
  let j = div.childNodes.length;
   while(j > 0){ 
- div.removeChild(item);
+  div.removeChild(div.childNodes[0]);
    j--;
  }
 };
